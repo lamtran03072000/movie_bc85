@@ -1,5 +1,3 @@
-import React, { useEffect } from "react";
-
 // các component luôn luôn có props là children
 const Section = ({ children, titleSection }) => {
   return (
