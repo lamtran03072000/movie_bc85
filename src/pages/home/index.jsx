@@ -57,6 +57,7 @@ const HomePage = () => {
       {isTablet && <div className="bg-red-600 h-20 "></div>}
       {isDesktop && <div className="bg-yellow-400 h-20 "></div>}
 
+      <h1> Hello bc 85</h1>
       <br />
     </div>
   );
