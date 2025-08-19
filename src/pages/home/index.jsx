@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselMovie from "./components/CarouselMovie";
 import ListMovie from "./components/ListMovie";
-import Section from "../../HOC/section";
+// import Section from "../../HOC/section";
 import { useMediaQuery } from "react-responsive";
 
 const HomePage = () => {
@@ -26,9 +26,9 @@ const HomePage = () => {
     <div>
       <CarouselMovie />
 
-      <Section titleSection={"Danh sách phim"}>
-        <ListMovie />
-      </Section>
+      {/* <Section titleSection={"Danh sách phim"}> */}
+      <ListMovie />
+      {/* </Section> */}
 
       <br />
       <br />
